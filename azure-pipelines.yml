@@ -25,7 +25,7 @@ steps:
     azureSubscription: 'Karly-K Prod(a11b3a3f-05ef-42b3-887f-759850e88bb0)'
     appType: 'webApp'
     appName: 'BananaMan'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(System.DefaultWorkingDirectory)/**/site.zip'
     deploymentMethod: 'auto'
 
 
