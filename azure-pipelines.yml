@@ -29,4 +29,4 @@ steps:
     appType: 'webApp'
     appName: 'BananaMan'
     package: '$(System.DefaultWorkingDirectory)/**/site.zip'
-    deploymentMethod: 'zipDeploy'
+    deploymentMethod: 'auto'
